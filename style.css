@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e; 
+    min-height: 100vh;
+}
+
+.hero-wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), 
+                url(./src/bg2.png) no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 50px;
+    display: flex;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-background-h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 30px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff); 
+    background-clip: text; 
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    box-sizing: border-box; 
+}
+
+form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.register-button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(90deg, #00c6ff, #0072ff); 
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 6px 20px rgba(0, 198, 255, 0.4);
+}
+
+.register-button:hover {
+    background: linear-gradient(90deg, #0072ff, #0046b3); 
+    transform: translateY(-1px);
+}
+
+.msg {
+    color: #ffcc00; 
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
