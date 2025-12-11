@@ -1,0 +1,10 @@
+CREATE TABLE users (
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100) NULL,
+    middle_name VARCHAR(100) NULL,
+    phone VARCHAR(20) NULL,
+    email VARCHAR(255) NULL,
+    password VARCHAR(255) NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+database name is: user_system
